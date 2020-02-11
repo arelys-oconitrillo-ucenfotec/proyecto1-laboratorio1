@@ -26,6 +26,10 @@ h1 {
     font-size: 76px;
 }
 
+h2 {
+    font-size: 76px;
+}
+
 .letra_blanca{
     color: #fff;
 }
@@ -53,6 +57,14 @@ h1 {
 .navegacion{
     font-size: 16px;
     padding-top: 10px;
+}
+
+.flotar-izquierda{
+    float: left;
+}
+
+.flotar-derecha{
+    float: right;
 }
 
 #banner_principal{
@@ -105,4 +117,58 @@ h1 {
 
 .margen-inferior{
     margin-bottom: 65px;
+}
+
+#about{
+    min-height: 500px;
+    margin-top: 150px;
+}
+
+.contenedor-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.margen-about{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contenedor-parrafos-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.parrafos-colum{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    max-width: 50%; 
+}
+
+.parrafos-colum p{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 80%;
+    line-height: 55px;
+    text-align: center;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.download{
+    display: flex;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+
 }
