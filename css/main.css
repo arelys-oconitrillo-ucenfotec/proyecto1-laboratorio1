@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.azul1{
+    background: #2C3E50;
+}
+
+.turquesa{
+    background: #18BC9C;
+}
+
+.blanco{
+    background: #fff;
+}
+
+.azul2{
+    background: #1A252F;
+}
+
+.gris{
+    background: #495057;
+}
+
+h1 {
+    font-size: 76px;
+}
+
+.letra_blanca{
+    color: #fff;
+}
+
+.letra_azul1{
+    color: #2C3E50;
+}
+
+#navegacion-principal{
+    color: #fff;
+    padding: 15px 20px 15px 50px;
+    display: flow-root;
+}
+
+#navegacion-principal a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.logo{
+    font-size: 32px;
+}
+
+.navegacion{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#banner_principal{
+    min-height: 450px;
+    padding: 80px;
+}
+
+.img-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-texto-centrado {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tamaño_letra{
+    font-size: 28px;
+}
+
+#portafolio{
+    min-height: 600px;
+    padding: 80px;
+}
+
+.contenedor_imgs_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor_colum{
+    flex: 33%;
+    max-width: 33%;
+    
+}
+
+.contenedor_colum img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 90%;
+}
