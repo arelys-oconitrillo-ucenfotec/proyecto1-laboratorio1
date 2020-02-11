@@ -57,7 +57,9 @@ h1 {
 
 #banner_principal{
     min-height: 450px;
-    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .img-contenedor{
@@ -78,7 +80,6 @@ h1 {
 
 #portafolio{
     min-height: 600px;
-    padding: 80px;
 }
 
 .contenedor_imgs_row{
