@@ -83,17 +83,25 @@ h1 {
 
 .contenedor_imgs_row{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .contenedor_colum{
+    display: flex;
+    flex-direction: column;
     flex: 33%;
-    max-width: 33%;
-    
+    max-width: 33%; 
 }
 
 .contenedor_colum img{
-    margin-top: 8px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     vertical-align: middle;
     width: 90%;
+}
+
+.margen-inferior{
+    margin-bottom: 65px;
 }
