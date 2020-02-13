@@ -218,3 +218,44 @@ form textarea{
     border-left-style: hidden;
     border-bottom: 3px solid #495057;
 }
+
+.send{
+    min-height: 100px;
+}
+
+.send a{
+    display: block;
+    width: 60px;
+    padding: 20px 55px;
+    text-decoration: none;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.footer1{
+    min-height: 350px;
+}
+
+.footer1 p{
+    font-size: 26px;
+    padding-top: 50px;
+}
+
+.footer2{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 p{
+    display: flex;
+    align-items: center;
+}
+
+.footer-row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
