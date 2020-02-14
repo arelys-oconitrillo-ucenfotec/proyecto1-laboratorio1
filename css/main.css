@@ -128,10 +128,11 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    margin-top: 50px
 }
 
 .margen-about{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
@@ -237,11 +238,6 @@ form textarea{
     min-height: 350px;
 }
 
-.footer1 p{
-    font-size: 26px;
-    padding-top: 50px;
-}
-
 .footer2{
     min-height: 100px;
     display: flex;
@@ -256,6 +252,52 @@ form textarea{
 .footer-row1{
     display: flex;
     flex-direction: row;
+    padding-top: 60px;
+}
+
+.footer-row1 p{
+    font-size: 24px;
+}
+
+.footer-row2 p{
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-row2{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 45px;
+}
+
+.columna-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 33%;
+    max-width: 33%;
+    justify-content: space-around;
+}
+
+.columna-3-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 33%;
+    max-width: 33%;
+    justify-content: center;
+}
+
+.columna-3-center p{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.columna-3-center a{
+    color: #fff;
+}
+
+.iconos a{
+    color: aliceblue;
 }
